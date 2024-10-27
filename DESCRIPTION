@@ -1,0 +1,29 @@
+Tic Tac Toe Game
+
+This repository contains a simple yet engaging Tic Tac Toe game built using HTML, CSS, and JavaScript. The game allows players to either compete against each other or play against an AI opponent, offering an enjoyable experience for users of all ages.
+
+Features
+Interactive UI: A visually appealing interface that enhances user engagement.
+Player Options: Choose to play against a friend or an AI opponent.
+Responsive Design: The layout adjusts for different screen sizes, ensuring a seamless experience on desktops and mobile devices.
+Game Logic: Implements classic Tic Tac Toe rules, including win conditions and a reset feature.
+User Feedback: Provides alerts for winning outcomes and options to restart the game.
+
+Technologies Used
+
+HTML: Structure of the game layout.
+CSS: Styling for the user interface, including responsiveness and hover effects.
+JavaScript: Game logic implementation, handling user interactions, and determining win conditions.
+
+How to Run the Project
+
+Clone this repository to your local machine using git clone <repository-url>.
+Open the index.html file in your preferred web browser.
+Enjoy playing Tic Tac Toe!
+
+Future Enhancements
+
+Implement advanced AI for a more challenging gameplay experience.
+Add player authentication to save game history.
+Include sound effects for a more immersive gaming experience.
+Expand the game to support more game modes or different variants of Tic Tac Toe.
