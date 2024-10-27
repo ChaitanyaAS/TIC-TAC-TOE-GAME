@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mode Selection Page -->
+    <div id="modeSelectionPage">
+        <h1>Welcome to Tic Tac Toe</h1>
+        <button id="playWithFriend">Play with Friend</button>
+        <button id="playWithAI">Play with AI</button>
+    </div>
+
+    <!-- Game Page -->
+    <main id="gamePage" style="display: none;">
+        <h1>TIC-TAC-TOE</h1>
+        <p id="playerTurn">Player O's Turn</p>
+        <div class="container">
+            <div class="game">
+                <!-- 3x3 grid for Tic Tac Toe boxes -->
+                <button class="box" id="box0"></button>
+                <button class="box" id="box1"></button>
+                <button class="box" id="box2"></button>
+                <button class="box" id="box3"></button>
+                <button class="box" id="box4"></button>
+                <button class="box" id="box5"></button>
+                <button class="box" id="box6"></button>
+                <button class="box" id="box7"></button>
+                <button class="box" id="box8"></button>
+            </div>
+        </div>
+        <button id="resetGame">Reset Game</button>
+        <button id="backToHome" onclick="goToHomePage()">Home</button>
+    </main>
+
+    <!-- Result Modal -->
+    <div id="resultModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2 id="resultText"></h2>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
